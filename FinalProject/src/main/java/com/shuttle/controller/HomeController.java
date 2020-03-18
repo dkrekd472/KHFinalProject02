@@ -16,6 +16,4 @@ public class HomeController {
 	public String test() {
 		return "test";
 	}
-
-	//연습
 }
