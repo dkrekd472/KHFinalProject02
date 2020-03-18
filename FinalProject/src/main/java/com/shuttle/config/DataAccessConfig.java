@@ -25,7 +25,7 @@ public class DataAccessConfig {
 		sessionFactory.setDataSource(dataSource);
 		sessionFactory.setMapperLocations(
 				new PathMatchingResourcePatternResolver().
-				getResources("classpath:static/mapper/*.xml"));
+				getResources("classpath:mapper/*.xml"));
 				// classpath는 src/main/resources를 줄인 것.
 				// mapper폴더 안에 우리가 만들 mapper.xml들이 들어감
 				
