@@ -17,4 +17,5 @@ public class HomeController {
 		return "test";
 	}
 
+	//연습
 }
